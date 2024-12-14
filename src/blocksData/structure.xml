@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 正在手写一份存档 -->
+<!-- 第八版设计 TAT                                                                                     -->
+<Structure>
+	<blocks>
+		<Y0>0
+			<X0>0
+				<Z0 z="0" id="stone">大E</Z0>
+				<Z1 z="0" id="stone">大E</Z1>
+				<Z2 z="0" id="stone">大E</Z2>
+				<Z3 z="0" id="stone">大E</Z3>
+				<Z4 z="0" id="stone">大E</Z4>
+				<Z5 z="0" id="stone">大E</Z5>
+			</X0>
+		</Y0>
+	</blocks>
+	<buildings>
+		<大E>
+		</大E>
+	</buildings>
+	<balloons/>
+</Structure>
