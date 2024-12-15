@@ -1,0 +1,315 @@
+<?Zml version="1.0" encoding="UTF-8"?>
+<!-- 正在手写一份存档 -->
+<!-- 第八版设计 TAT                                                                                >    -->
+<Structure>
+	<blocks>
+		<Y0>0
+			<Z0>0
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z0>
+			<Z1>1
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone" u="C0">大E</X1>
+				<X2 x="2" id="stone" u="C0">大E</X2>
+				<X3 x="3" id="stone" u="C0">大E</X3>
+				<X4 x="4" id="stone" u="C0">大E</X4>
+				<X5 x="5" id="stone" u="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z1>
+			<Z2>2
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone" u="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z2>
+			<Z3>3
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="air">大E</X2>
+				<X3 x="3" id="air">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone" u="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z3>
+			<Z4>4
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone" u="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z4>
+			<Z5>5
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone" u="C0">大E</X3>
+				<X4 x="4" id="stone" u="C0">大E</X4>
+				<X5 x="5" id="stone" u="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z5>
+			<Z6>6
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone" u="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z6>
+			<Z7>7
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="air">大E</X2>
+				<X3 x="3" id="air">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="6" id="stone" u="C0">大E</X5>
+				<X6 x="5" id="stone">大E</X6>
+			</Z7>
+			<Z8>8
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="6" id="stone" u="C0">大E</X5>
+				<X6 x="7" id="stone">大E</X6>
+			</Z8>
+			<Z9>9
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone" u="C0">大E</X1>
+				<X2 x="2" id="stone" u="C0">大E</X2>
+				<X3 x="3" id="stone" u="C0">大E</X3>
+				<X4 x="4" id="stone" u="C0">大E</X4>
+				<X5 x="5" id="stone" u="C0">大E</X5>
+				<X6 x="7" id="stone">大E</X6>
+			</Z9>
+			<Z10>10
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z10>
+		</Y0>
+		<Y1>1
+			<Z0>0
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone" s="C0">大E</X1>
+				<X2 x="2" id="stone" s="C0">大E</X2>
+				<X3 x="3" id="stone" s="C0">大E</X3>
+				<X4 x="4" id="stone" s="C0">大E</X4>
+				<X5 x="5" id="stone" s="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z0>
+			<Z1>1
+				<X0 x="0" id="stone" A="Z1_0" B="Y1_0" C="C0">大E</X0>
+				<X1 x="1" id="air" A="Z1_0" B="Y1_0" C="C0">大E</X1>
+				<X2 x="2" id="air" A="Z1_0" B="Y1_0" C="C0">大E</X2>
+				<X3 x="3" id="air" A="Z1_0" B="Y1_0" C="C0">大E</X3>
+				<X4 x="4" id="air" A="Z1_0" B="Y1_0" C="C0">大E</X4>
+				<X5 x="5" id="air" A="Z1_0" B="Y1_0" C="C0">大E</X5>
+				<X6 x="6" id="stone" w="C0">大E</X6>
+			</Z1>
+			<Z2>2
+				<X0 x="0" id="stone" A="Z2_0" B="Y1_0" C="C0">大E</X0>
+				<X1 x="1" id="stone" A="Z2_0" B="Y1_0" C="C0">大E</X1>
+				<X2 x="2" id="stone" A="Z2_0" B="Y1_0" C="C0">大E</X2>
+				<X3 x="3" id="stone" A="Z2_0" B="Y1_0" C="C0">大E</X3>
+				<X4 x="4" id="stone" A="Z2_0" B="Y1_0" C="C0">大E</X4>
+				<X5 x="5" id="air" A="Z2_0" B="Y1_0" C="C0">大E</X5>
+				<X6 x="6" id="stone" w="C0">大E</X6>
+			</Z2>
+			<Z3>3
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="air">大E</X2>
+				<X3 x="3" id="air">大E</X3>
+				<X4 x="4" id="stone" A="Z3_0" B="Y1_0" C="C0">大E</X4>
+				<X5 x="5" id="air" A="Z3_0" B="Y1_0" C="C0">大E</X5>
+				<X6 x="6" id="stone" w="C0">大E</X6>
+			</Z3>
+			<Z4>4
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="stone" A="Z4_0" B="Y1_0" C="C0">大E</X2>
+				<X3 x="3" id="stone" A="Z4_0" B="Y1_0" C="C0">大E</X3>
+				<X4 x="4" id="stone" A="Z4_0" B="Y1_0" C="C0">大E</X4>
+				<X5 x="5" id="air" A="Z4_0" B="Y1_0" C="C0">大E</X5>
+				<X6 x="6" id="stone" w="C0">大E</X6>
+			</Z4>
+			<Z5>5
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="stone" A="Z5_0" B="Y1_0" C="C0">大E</X2>
+				<X3 x="3" id="air" A="Z5_0" B="Y1_0" C="C0">大E</X3>
+				<X4 x="4" id="air" A="Z5_0" B="Y1_0" C="C0">大E</X4>
+				<X5 x="5" id="air" A="Z5_0" B="Y1_0" C="C0">大E</X5>
+				<X6 x="6" id="stone" w="C0">大E</X6>
+			</Z5>
+			<Z6>6
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="stone" A="Z6_0" B="Y1_0" C="C0">大E</X2>
+				<X3 x="3" id="stone" A="Z6_0" B="Y1_0" C="C0">大E</X3>
+				<X4 x="4" id="stone" A="Z6_0" B="Y1_0" C="C0">大E</X4>
+				<X5 x="5" id="air" A="Z6_0" B="Y1_0" C="C0">大E</X5>
+				<X6 x="6" id="stone" w="C0">大E</X6>
+			</Z6>
+			<Z7>7
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="air">大E</X2>
+				<X3 x="3" id="air">大E</X3>
+				<X4 x="4" id="stone" A="Z7_0" B="Y1_0" C="C0">大E</X4>
+				<X5 x="5" id="air" A="Z7_0" B="Y1_0" C="C0">大E</X5>
+				<X6 x="6" id="stone" w="C0">大E</X6>
+			</Z7>
+			<Z8>8
+				<X0 x="0" id="stone" A="Z8_0" B="Y1_0" C="C0">大E</X0>
+				<X1 x="1" id="stone" A="Z8_0" B="Y1_0" C="C0">大E</X1>
+				<X2 x="2" id="stone" A="Z8_0" B="Y1_0" C="C0">大E</X2>
+				<X3 x="3" id="stone" A="Z8_0" B="Y1_0" C="C0">大E</X3>
+				<X4 x="4" id="stone" A="Z8_0" B="Y1_0" C="C0">大E</X4>
+				<X5 x="5" id="air" A="Z8_0" B="Y1_0" C="C0">大E</X5>
+				<X6 x="6" id="stone" w="C0">大E</X6>
+			</Z8>
+			<Z9>9
+				<X0 x="0" id="stone" A="Z9_0" B="Y1_0" C="C0">大E</X0>
+				<X1 x="1" id="air" A="Z9_0" B="Y1_0" C="C0">大E</X1>
+				<X2 x="2" id="air" A="Z9_0" B="Y1_0" C="C0">大E</X2>
+				<X3 x="3" id="air" A="Z9_0" B="Y1_0" C="C0">大E</X3>
+				<X4 x="4" id="air" A="Z9_0" B="Y1_0" C="C0">大E</X4>
+				<X5 x="5" id="air" A="Z9_0" B="Y1_0" C="C0">大E</X5>
+				<X6 x="6" id="stone" w="C0">大E</X6>
+			</Z9>
+			<Z10>10
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone" n="C0">大E</X1>
+				<X2 x="2" id="stone" n="C0">大E</X2>
+				<X3 x="3" id="stone" n="C0">大E</X3>
+				<X4 x="4" id="stone" n="C0">大E</X4>
+				<X5 x="5" id="stone" n="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z10>
+		</Y1>
+		<Y2>2
+			<Z0>0
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z0>
+			<Z1>1
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone" d="C0">大E</X1>
+				<X2 x="2" id="stone" d="C0">大E</X2>
+				<X3 x="3" id="stone" d="C0">大E</X3>
+				<X4 x="4" id="stone" d="C0">大E</X4>
+				<X5 x="5" id="stone" d="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z1>
+			<Z2>2
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone" d="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z2>
+			<Z3>3
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="air">大E</X2>
+				<X3 x="3" id="air">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone" d="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z3>
+			<Z4>4
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone" d="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z4>
+			<Z5>5
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone" d="C0">大E</X3>
+				<X4 x="4" id="stone" d="C0">大E</X4>
+				<X5 x="5" id="stone" d="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z5>
+			<Z6>6
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone" d="C0">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z6>
+			<Z7>7
+				<X0 x="0" id="air">大E</X0>
+				<X1 x="1" id="air">大E</X1>
+				<X2 x="2" id="air">大E</X2>
+				<X3 x="3" id="air">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="6" id="stone" d="C0">大E</X5>
+				<X6 x="5" id="stone">大E</X6>
+			</Z7>
+			<Z8>8
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="6" id="stone" d="C0">大E</X5>
+				<X6 x="7" id="stone">大E</X6>
+			</Z8>
+			<Z9>9
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone" d="C0">大E</X1>
+				<X2 x="2" id="stone" d="C0">大E</X2>
+				<X3 x="3" id="stone" d="C0">大E</X3>
+				<X4 x="4" id="stone" d="C0">大E</X4>
+				<X5 x="5" id="stone" d="C0">大E</X5>
+				<X6 x="7" id="stone">大E</X6>
+			</Z9>
+			<Z10>10
+				<X0 x="0" id="stone">大E</X0>
+				<X1 x="1" id="stone">大E</X1>
+				<X2 x="2" id="stone">大E</X2>
+				<X3 x="3" id="stone">大E</X3>
+				<X4 x="4" id="stone">大E</X4>
+				<X5 x="5" id="stone">大E</X5>
+				<X6 x="6" id="stone">大E</X6>
+			</Z10>
+		</Y2>
+	</blocks>
+	<buildings>
+		<大E>
+		</大E>
+	</buildings>
+	<balloons/>
+</Structure>

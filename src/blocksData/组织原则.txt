@@ -1,0 +1,22 @@
+#组织指Organizer生成buildings的过程
+
+    air指代所有id="air"的core, stone指代所有非air的core
+    在country范围内，“stones-airs-stone”复合结构的方块组激发一个组成column的请求
+    上述方块组中的stones与airs最终将被组织为column，其中stones称为head, airs称为body，剩下的那个stone称为boot
+    column结构中所有的core都会被打上A属性，记录所属column的名字，boot则会被打上w标签记录在其西column的名字
+    column结构从属于circle结构，circle结构从属于cube结构
+    在默认情况下，新生成的column属于"defaultCircle"，"defaultCircle"属于"defaultCube"
+    所有的column都有finallyTo属性与toward属性，默认值为"itself"与"opened"(xml中分别简称为ft与tw)
+    当finallyTo的值不为"itself"时，toward支持的值有"N"与"S"，当finallyTo的值等于"itself"时，toward支持的值有"closed"，"opened"
+    "鱼骨扫描法"可以更改finallyTo与toward的值
+    column有“气密性”的概念，对于finallyTo="itself"的column而言，气密性即为toward的值
+    对于!finallyTo="itself"的column，气密性取决于与其有"气密统一"关系的column群中finallyTo="itself"的column的toward值
+    toward="N"时，代表其body与在其北方的column的body有“气密统一”关系，"S"同理
+    在同一Y值内，有"气密统一"关系的column群称作气密环
+    一个气密环中finallyTo="itself"的column被称作keyColumn
+    若finallyTo的值不为"itself"，则其应为同气密环的keyColumn的名字
+    若Organizer判定一个气密环是封闭的，则其keyColumn的toward值将被设置为closed，开放的则为opened
+    一个封闭的气密环会形成一个非default的circle，气密环中的所有column将会被迁往新的circle之下
+    在理论上，所有可能的二维闭合结构都不应该导致不同气密环的重叠，一个column只能从属于一个circle
+    当一个column从属于非default的circle时，其中的所有core都会被打上B属性，其值为所属circle的名字
+    当Organizer判定垂直排列的circle之间存在气密统一时（？）

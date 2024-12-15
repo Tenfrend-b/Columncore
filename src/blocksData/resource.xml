@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+	<air shape="■" R="0" G="255" B="255" />
+	<stone shape="■" R="156" G="156" B="156" />
+	<grass shape="■" R="0" G="255" B="0" />
+	<glass shape="■" R="200" G="200" B="200" />
+	<bedrock shape="■" R="0" G="0" B="0" />
+</blocks>

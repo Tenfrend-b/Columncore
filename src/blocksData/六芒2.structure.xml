@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 正在手写一份存档 -->
+<!-- 第五版设计 TAT -->
+<Structure>
+	<blocks>
+		<Y-1>-1
+			<X-1>-1
+				<Z-1 z="-1" id="air">六芒</Z-1>
+				<Z0 z="0" id="air">六芒</Z0>
+				<Z1 z="1" id="air">六芒</Z1>
+			</X-1>
+			<X0>0
+				<Z-1 z="-1" id="air">六芒</Z-1>
+				<Z0 z="0" id="stone" A="X0_0" B="Y-1_0" C="C0">六芒</Z0>
+				<Z1 z="1" id="air">六芒</Z1>
+			</X0>
+			<X1>1
+				<Z-1 z="-1" id="air">六芒</Z-1>
+				<Z0 z="0" id="air">六芒</Z0>
+				<Z1 z="1" id="air">六芒</Z1>
+			</X1>
+		</Y-1>
+		<Y0>0
+			<X-1>-1
+				<Z-1 z="-1" id="air">六芒</Z-1>
+				<Z0 z="0" id="stone" A="X-1_0" B="Y0_0" C="C0">六芒</Z0>
+				<Z1 z="1" id="air">六芒</Z1>
+			</X-1>
+			<X0>0
+				<Z-1 z="-1" id="stone" A="X0_0" B="Y0_0" C="C0">六芒</Z-1>
+				<Z0 z="0" id="air" A="X0_0" B="Y0_0" C="C0">六芒</Z0>
+				<Z1 z="1" id="stone" A="X0_1" B="Y0_0" C="C0">六芒</Z1>
+			</X0>
+			<X1>1
+				<Z-1 z="-1" id="air" >六芒</Z-1>
+				<Z0 z="0" id="stone" A="X1_0" B="Y0_0" C="C0">六芒</Z0>
+				<Z1 z="1" id="air">六芒</Z1>
+			</X1>
+		</Y0>
+		<Y1>1
+			<X-1>-1
+				<Z-1 z="-1" id="air">六芒</Z-1>
+				<Z0 z="0" id="air">六芒</Z0>
+				<Z1 z="1" id="air">六芒</Z1>
+			</X-1>
+			<X0>0
+				<Z-1 z="-1" id="air">六芒</Z-1>
+				<Z0 z="0" id="stone" A="X0_0" B="Y1_0" C="C0">六芒</Z0>
+				<Z1 z="1" id="air">六芒</Z1>
+			</X0>
+			<X1>1
+				<Z-1 z="-1" id="air">六芒</Z-1>
+				<Z0 z="0" id="air">六芒</Z0>
+				<Z1 z="1" id="air">六芒</Z1>
+			</X1>
+		</Y1>
+	</blocks>
+	<buildings>
+		<六芒 fX="-1" fY="-1" fZ="-1" tX="1" tY="1" tZ="1">0
+			<defaultCube>
+				<defaultCircle/>
+			</defaultCube>
+			<C0>
+				<Y-1_0 fX="0" tX="0">-1
+					<X0_0 x="0" fZ="0" tZ="0"/>
+				</Y-1_0>
+				<Y0_0 fX="-1" tX="1">0
+					<X-1_0 x="-1" fX="0" tZ="0"/>
+					<X0_0 x="0" fZ="-1" tZ="-1">X0_1
+						<x fz="0" tz="0"/>
+					</X0_0>
+					<X0_1 x="0" fZ="1" tZ="1" S="X0_0"/>
+				</Y0_0>
+				<Y1_0 fX="0" tX="0">1
+					<X0_0 x="0" fZ="0" tZ="0"/>
+				</Y1_0>
+			</C0>
+		</六芒>
+	</buildings>
+	<balloons/>
+</Structure>

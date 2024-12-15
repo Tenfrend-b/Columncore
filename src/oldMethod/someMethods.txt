@@ -1,0 +1,165 @@
+package oldMethod;
+//import java.awt.BorderLayout;
+//import java.awt.FlowLayout;
+//import java.io.InputStream;
+//import java.util.List;
+//import java.util.Scanner;
+//
+//import javax.swing.ButtonGroup;
+//import javax.swing.JButton;
+//import javax.swing.JComboBox;
+//import javax.swing.JDialog;
+//import javax.swing.JFrame;
+//import javax.swing.JLabel;
+//import javax.swing.JMenu;
+//import javax.swing.JMenuBar;
+//import javax.swing.JPanel;
+//import javax.swing.JRadioButton;
+//import javax.swing.WindowConstants;
+//
+//import org.dom4j.Document;
+//import org.dom4j.Element;
+//import org.dom4j.io.SAXReader;
+//import org.dom4j.Attribute;
+//
+//public class runXMLmain {
+//	public static void 元素打印器(Element theElt) {
+//		List<Element> EltList = theElt.elements();
+//		for (Element elt : EltList) {
+//			System.out.println(elt.getName() + ":" + elt.attribute("name").getText() + "("
+//					+ elt.attribute("type").getText() + ")");
+//			List<Element> innerEltList = elt.elements();
+//			for (Element irElt : innerEltList) {
+//				System.out.println("	" + irElt.getName() + "	" + irElt.getData());
+//			}
+//		}
+//	}
+//
+//	public static Document xml文档获取器(String theXmlPath) {
+//		InputStream iptStr = runXMLmain.class.getClassLoader().getResourceAsStream(theXmlPath);
+//		SAXReader sax = new SAXReader();
+//		Document theXMLdoc = null;
+//		try {// 意义不明的tryCatch
+//			theXMLdoc = sax.read(iptStr);
+//			iptStr.close();
+//		} catch (Exception e) {
+//
+//		}
+//
+//		return theXMLdoc;
+//
+//	}
+//
+//	public static void 窗口swing(){
+//		System.out.println("Hello,XML.");
+//		JFrame Hello窗口 = new JFrame("Hello");
+//		Hello窗口.setSize(800, 450);
+//		Hello窗口.setLocation(0, 0);
+//
+//		JPanel 西面板 = new JPanel(new FlowLayout());
+//		JPanel 东面板 = new JPanel(new FlowLayout());
+//		JPanel 北面板 = new JPanel(new FlowLayout());
+//		JPanel 南面板 = new JPanel(new FlowLayout());
+//		JPanel 中面板 = new JPanel(new FlowLayout());
+//		Hello窗口.add(西面板, BorderLayout.WEST);
+//		Hello窗口.add(东面板, BorderLayout.EAST);
+//		Hello窗口.add(北面板, BorderLayout.NORTH);
+//		Hello窗口.add(南面板, BorderLayout.SOUTH);
+//		Hello窗口.add(中面板, BorderLayout.CENTER);
+//
+//		JLabel 标签A = new JLabel("这是一个标签");
+//		中面板.add(标签A);
+//
+//		JButton 按钮A = new JButton("A");
+//		JButton 按钮B = new JButton("B");
+//		东面板.add(按钮A);
+//		东面板.add(按钮B);
+//
+//		JRadioButton 焦点A = new JRadioButton("A");
+//		JRadioButton 焦点B = new JRadioButton("B");
+//		JRadioButton 焦点C = new JRadioButton("C");
+//		ButtonGroup 甲焦点组 = new ButtonGroup();
+//		甲焦点组.add(焦点A);
+//		甲焦点组.add(焦点B);
+//		甲焦点组.add(焦点C);
+//		西面板.add(焦点A);
+//		西面板.add(焦点B);
+//		西面板.add(焦点C);
+//
+//		JMenuBar 顶部栏 = new JMenuBar();
+//		JMenu 琴 = new JMenu("琴");
+//		琴.add("钢琴");
+//		琴.add("提琴");
+//		琴.add("马头琴");
+//		琴.add("古琴");
+//		JMenu 棋 = new JMenu("棋");
+//		棋.add("围棋");
+//		棋.add("象棋");
+//		棋.add("兵棋");
+//		棋.add("飞行棋");
+//		JMenu 书 = new JMenu("书");
+//		书.add("隶书");
+//		书.add("楷书");
+//		书.add("行书");
+//		书.add("草书");
+//		JMenu 画 = new JMenu("画");
+//		画.add("水墨画");
+//		画.add("油画");
+//		画.add("板画");
+//		画.add("水粉画");
+//		顶部栏.add(琴);
+//		顶部栏.add(棋);
+//		顶部栏.add(书);
+//		顶部栏.add(画);
+//		北面板.add(顶部栏);
+//
+//		JComboBox 复选框 = new JComboBox();
+//		复选框.addItem("子");
+//		复选框.addItem("鼠");
+//		复选框.addItem("丑");
+//		复选框.addItem("牛");
+//		北面板.add(复选框);
+//
+//		Hello窗口.setVisible(true);
+//		Hello窗口.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+//	}
+//
+//	public static void reMain(String[] args) throws Exception {
+//		System.out.println("这是一个xml阅读程序！我将用它检验一个关于体素3D模型的封闭性判定的算法的正确性！");
+//		System.out.println("it made by 杨东箭!");
+//		Document doc = xml文档获取器("xml/testXML.xml");
+//		Element theRootElt = doc.getRootElement();
+//		Scanner sc = new Scanner(System.in);
+//
+//		int answer = 0;
+//		try {// 意义不明的tryCatch
+//			for (; true;) {
+//				System.out.println("\n如需编辑，请输入2010\n如需打印，请输入2014\n如需退出，输入其他值即可");
+//				answer = sc.nextInt();
+//
+//				if (answer == 2010) {// 编辑模式
+//					System.out.println("你打开了编辑模式");
+//					System.out.println("添加节点输入1，删除节点请输入2，退出编辑请输入其他值");
+//					answer = sc.nextInt();
+//					if (answer == 1) {
+//						System.out.println("该功能制作中");
+//					} else if (answer == 2) {
+//						System.out.println("该功能制作中");
+//					} else {
+//						System.out.println("退出编辑模式");
+//					}
+//				} else if (answer == 2014) {// 打印模式
+//					元素打印器(theRootElt);
+//				} else {// 退出
+//					System.out.println("程序将于三秒后关闭");
+//					Thread.sleep(3000);
+//					break;
+//				}
+//				Thread.sleep(1000);
+//			}
+//		} catch (Exception e) {
+//
+//		}
+//		sc.close();
+//	}
+//}
